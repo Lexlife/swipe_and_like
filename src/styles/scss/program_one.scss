@@ -1,0 +1,167 @@
+/* Общие стили */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Главный заголовок и кнопка назад */
+.program {
+  display: flex;
+  width: 1651px;
+}
+
+.program__one {
+  position: absolute;
+  height: 66px;
+  left: 0;
+  top: 92px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #090808;
+}
+
+.left_arrow {
+  position: absolute;
+  width: 21px;
+  height: 13px;
+  left: 1564px;
+  top: 151px;
+  z-index: 1;
+}
+
+.back_button {
+  position: absolute;
+  width: 91px;
+  height: 32px;
+  left: 1557px;
+  top: 141px;
+  background: #ffcc2d;
+}
+
+.back_button > p {
+  position: absolute;
+  top: -9px;
+  left: 37px;
+}
+
+.program__one_main {
+  position: absolute;
+  left: 0;
+  top: 214px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #090808;
+}
+
+.program__one_info {
+  position: absolute;
+  width: 1090px;
+  height: 92px;
+  left: 0;
+  top: 243px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #828282;
+}
+
+.program__one_button {
+  position: absolute;
+  width: 370px;
+  height: 64px;
+  top: 388px;
+  left: 0px;
+  background: #ffcc2d;
+}
+
+.program__one_button > p {
+  position: absolute;
+  width: 368.53px;
+  height: 22.71px;
+  left: 0px;
+  top: 0px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #090808;
+}
+
+// фотогалерея
+.push-ups-from-the-crossbar {
+  position: absolute;
+  width: 389px;
+  height: 384px;
+  left: 0;
+  top: 526px;
+  background: #3ea43b;
+  fill: #3ea43b;
+}
+
+.push-ups-from-the-crossbar__description {
+  position: absolute;
+  width: 191px;
+  height: 58px;
+  left: 39px;
+  top: -12px;
+  bottom: 89px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.program__one_reverse-grip-push-up {
+  position: absolute;
+  width: 389px;
+  height: 384px;
+  left: 419px;
+  top: 526px;
+  background: #3ea43b;
+  fill: #3ea43b;
+}
+
+.pull-up-on-the-horizontal-bar {
+  position: absolute;
+  width: 389px;
+  height: 384px;
+  left: 837px;
+  top: 526px;
+  background: #3ea43b;
+  fill: #3ea43b;
+}
+
+.twisting-on-the-bench {
+  position: absolute;
+  width: 389px;
+  height: 384px;
+  left: 1258px;
+  top: 526px;
+  background: #3ea43b;
+  fill: #3ea43b;
+}

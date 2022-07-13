@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключаем иконку -->
+    <link rel="icon" type="image/svg+xml" href="src/img/emblem.svg" />
+    <title>Умная площадка</title>
+    <!-- Нормализуем стили для всех браузеров -->
+    <link rel="stylesheet" href="src/styles/normalize.css">
+    <!-- Подключаем шрифты Гугл -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <!-- Подключаем наши стили -->
+    <link rel="stylesheet" href="src/styles/css/index.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="btn">
+          <div class="btn__catalog">КАТАЛОГ</div>
+        </button>
+        <input type="text" class="search" placeholder="Я ищу...">
+        <a href="#"><img class="magnifier" src="src/img/magnifier.svg"
+               alt="иконка серого цвета с изображением лупы"></a>
+        <a class="cart_link" href="#">
+          <img class="cart" src="src/img/cart.svg" alt="иконка серого цвета с изображением корзины для покупок">
+          Корзина
+        </a>
+        <a class="profile_link" href="#">
+          <img class="profile" src="src/img/profile.svg" alt="иконка серого цвета с изображением профиля человека">
+          Профиль
+        </a>
+        <a class="like_link" href="#">
+          <img class="like" src="src/img/like.svg" alt="иконка серого цвета с изображением сердца">
+          Нравится
+        </a>
+      </nav>
+      <section class="breadcrumb">
+        <ul class="breadcrumb_list">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Умная площадка</a></li>
+        </ul>
+      </section>
+      <main>
+        <section>
+          <p class="main__header">Умная спортивная площадка по приказу №107 от 23.03.2022</p>
+          <p class="main__header_item">Уличная площадка с тренажерным комплексом из 21 тренажера. Для иллюстрации
+            упражнений
+            лучше конечно
+            использовать анимацию, пусть и простую. Сможем ли мы получить исходники изображений в векторе (svg)? Нам так
+            было бы удобнее делать анимацию. Размер изображений для разных упражнений должен быть одинаковый по размеру
+            и
+            пропорциям. Для каждого изображений одного упражнения - оборудование должно быть неподвижно и находиться в
+            одном месте
+          </p>
+          <button class="rectangle">
+            <p>Оборудование в каталоге</p>
+          </button>
+        </section>
+        <section class="photo_gallery">
+          <div class="warm-up">
+            <img class="warm-up_img" src="src/img/warm-up.png"
+                 alt="девушка на зеленой траве выполняет упражнение на растяжку">
+          </div>
+          <div class="warm-up__overlay">
+            <p class="warm-up__overlay_header">Разминка</p>
+            <p class="warm-up__overlay_description">10-15 мин. | 8 упражнений</p>
+            <div class="white_circle">
+              <img class="emblem" src="src/img/emblem.svg" alt="Эмблема в виде зелено-жёлтого треугольника">
+            </div>
+          </div>
+          <a href="program_one.html">
+            <div class="program_one">
+              <img class="program_one_img" src="src/img/program_one.png"
+                   alt="четыре турника, а также иные тренажеры на уличной площадке">
+            </div>
+            <div class="program_one__overlay">
+              <p class="program_one__overlay_header">Программа 1</p>
+              <p class="program_one__overlay_description">3 недели | 6 упражнений</p>
+              <div class="white_circle">
+                <img class="emblem" src="src/img/emblem.svg" alt="Эмблема в виде зелено-жёлтого треугольника">
+              </div>
+            </div>
+          </a>
+          <div class="program_two__overlay">
+            <p class="program_two__overlay_header">Программа 2</p>
+            <p class="program_two__overlay_description">6 недель | 10 упражнений</p>
+            <div class="white_circle">
+              <img class="emblem" src="src/img/emblem.svg" alt="Эмблема в виде зелено-жёлтого треугольника">
+            </div>
+          </div>
+          <div class="program_two">
+            <img class="program_two_img" src="src/img/program_two.png"
+                 alt="огороженная уличная спортивная площадка с турниками и мягким покрытием пола">
+          </div>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>

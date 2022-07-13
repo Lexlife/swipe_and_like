@@ -1,0 +1,422 @@
+/* Общие стили */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Навигация */
+header {
+  position: absolute;
+  width: 1651px;
+  height: 59px;
+  left: 135px;
+  top: 50px;
+  background: #ffffff;
+}
+
+.btn {
+  position: absolute;
+  width: 233px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #090808;
+}
+
+.btn__catalog {
+  position: absolute;
+  width: 83px;
+  height: 25px;
+  left: calc(50% - 83px / 2);
+  top: calc(50% - 25px / 2);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.search {
+  position: absolute;
+  left: 19.26%;
+  right: 21.93%;
+  top: 16.95%;
+  bottom: 7.63%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000000;
+  padding-right: 35px;
+  font-size: 18px;
+}
+
+::placeholder {
+  position: absolute;
+  left: 0.4%;
+  right: 0.5%;
+  top: 25.42%;
+  bottom: 25.42%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #828282;
+}
+
+.magnifier {
+  position: absolute;
+  left: 76.38%;
+  right: 23.15%;
+  top: 32.95%;
+  bottom: 40.68%;
+}
+
+.cart {
+  position: absolute;
+  width: 30px;
+  height: 26.29px;
+  right: 17px;
+  top: -24px;
+}
+
+.cart_link {
+  position: absolute;
+  left: 81.83%;
+  right: 14.54%;
+  top: 72.1%;
+  bottom: 0%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #090808;
+}
+
+.profile {
+  position: absolute;
+  width: 22.62px;
+  height: 25px;
+  right: 22.74px;
+  top: -25px;
+}
+
+.profile_link {
+  position: absolute;
+  left: 88.86%;
+  right: 7.21%;
+  top: 72.1%;
+  bottom: 0%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #090808;
+}
+
+.like {
+  position: absolute;
+  width: 26px;
+  height: 22.29px;
+  right: 24px;
+  top: -22px;
+}
+
+.like_link {
+  position: absolute;
+  left: 95.82%;
+  right: 0%;
+  top: 72.1%;
+  bottom: 0%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* Хлебные крошки */
+.breadcrumb {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
+// Стиль списка
+ul.breadcrumb_list {
+  margin-top: 29px;
+  padding: 0;
+  list-style: none;
+}
+
+ul.breadcrumb_list li > a {
+  color: #bdbdbd;
+}
+
+ul.breadcrumb_list li:last-child > a {
+  color: #068145;
+}
+
+// Отображение элементов списка бок о бок
+ul.breadcrumb_list li {
+  display: inline;
+  font-size: 18px;
+}
+
+// Добавить символ косой черты (>) перед/за каждым элементом списка
+ul.breadcrumb_list li + li:before {
+  padding: 18px;
+  color: black;
+  content: "\003E";
+}
+
+// Добавить цвет на наведении курсора мыши
+ul.breadcrumb_list li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* Главный заголовок и описание к нему */
+.main__header {
+  position: absolute;
+  width: 1649px;
+  height: 66px;
+  left: 0;
+  top: 92px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #090808;
+}
+
+.main__header_item {
+  position: absolute;
+  width: 1091px;
+  height: 92px;
+  left: 0;
+  top: 190px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #828282;
+}
+
+.rectangle {
+  position: absolute;
+  width: 370px;
+  height: 64px;
+  left: 0;
+  top: 327px;
+  background: #ffcc2d;
+}
+
+.rectangle > p {
+  position: absolute;
+  width: 368.53px;
+  height: 22.71px;
+  left: 0;
+  top: 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #090808;
+}
+
+/* Фотогалерея */
+// изображение 1
+.warm-up_img {
+  position: absolute;
+  width: 529px;
+  height: 287px;
+  left: 0px;
+  top: 449px;
+  background: radial-gradient(133.55% 429.94% at 0% -4.93%, rgba(255, 255, 255, 0) 34.53%, #ffffff 80.89%);
+}
+
+.warm-up__overlay {
+  position: absolute;
+  width: 529px;
+  height: 90px;
+  left: 0px;
+  top: 647px;
+  background: #3ea43b;
+}
+
+.warm-up__overlay_header {
+  position: absolute;
+  width: 116px;
+  height: 34px;
+  left: 377px;
+  bottom: 17px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+}
+
+.warm-up__overlay_description {
+  position: absolute;
+  left: 0px;
+  right: 42px;
+  top: 27px;
+  bottom: 9.33%;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.white_circle {
+  width: 42.3px;
+  height: 43.3px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 23px;
+  left: 39.53px;
+}
+
+// изображение 2
+.program_one_img {
+  position: absolute;
+  width: 530px;
+  height: 286.69px;
+  left: 556px;
+  top: 449px;
+  background: radial-gradient(133.55% 429.94% at 0% -4.93%, rgba(255, 255, 255, 0) 34.53%, #ffffff 80.89%);
+}
+
+.program_one__overlay {
+  position: absolute;
+  width: 529px;
+  height: 90px;
+  left: 556px;
+  top: 647px;
+  background: #3ea43b;
+}
+
+.program_one__overlay_header {
+  position: absolute;
+  width: 152px;
+  height: 34px;
+  left: 346px;
+  bottom: 15px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+}
+
+.program_one__overlay_description {
+  position: absolute;
+  left: 0;
+  right: 39px;
+  top: 31px;
+  bottom: 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: #ffffff;
+}
+
+// изображение 3
+.program_two_img {
+  position: absolute;
+  width: 530px;
+  height: 286.69px;
+  left: 1113px;
+  top: 449px;
+  background: radial-gradient(133.55% 429.94% at 0% -4.93%, rgba(255, 255, 255, 0) 34.53%, #ffffff 80.89%);
+}
+
+.program_two__overlay {
+  position: absolute;
+  width: 529px;
+  height: 90px;
+  left: 1113px;
+  top: 647px;
+  background: #3ea43b;
+  z-index: 1;
+}
+
+.program_two__overlay_header {
+  position: absolute;
+  width: 152px;
+  height: 34px;
+  left: 346px;
+  bottom: 15px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #ffffff;
+}
+
+.program_two__overlay_description {
+  position: absolute;
+  left: 0;
+  right: 34px;
+  top: 31px;
+  bottom: 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.emblem {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}

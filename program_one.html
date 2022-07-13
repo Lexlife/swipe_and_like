@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Подключаем иконку -->
+    <link rel="icon" type="image/svg+xml" href="src/img/emblem.svg" />
+    <title>Программа первая</title>
+    <!-- Нормализуем стили для всех браузеров -->
+    <link rel="stylesheet" href="src/styles/normalize.css">
+    <!-- Подключаем шрифты Гугл -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <!-- Подключаем наши стили -->
+    <link rel="stylesheet" href="src/styles/css/index.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="btn">
+          <div class="btn__catalog">КАТАЛОГ</div>
+        </button>
+        <input type="text" class="search" placeholder="Я ищу...">
+        <a href="#"><img class="magnifier" src="src/img/magnifier.svg"
+               alt="иконка серого цвета с изображением лупы"></a>
+        <a class="cart_link" href="#">
+          <img class="cart" src="src/img/cart.svg" alt="иконка серого цвета с изображением корзины для покупок">
+          Корзина
+        </a>
+        <a class="profile_link" href="#">
+          <img class="profile" src="src/img/profile.svg" alt="иконка серого цвета с изображением профиля человека">
+          Профиль
+        </a>
+        <a class="like_link" href="#">
+          <img class="like" src="src/img/like.svg" alt="иконка серого цвета с изображением сердца">
+          Нравится
+        </a>
+      </nav>
+      <section class="breadcrumb">
+        <ul class="breadcrumb_list">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Умная площадка</a></li>
+        </ul>
+      </section>
+      <main>
+        <section class="program">
+          <p class="program__one">Программа 1</p>
+          <img class="left_arrow" src="src/img/left_arrow.png" alt="Стрелка налево">
+          <a class="back_button" href="index.html">
+            <p>Назад</p>
+          </a>
+          <div class="program__one_main">3 недели | 6 упражнений</div>
+          <p class="program__one_info">Для иллюстрации упражнений лучше конечно использовать анимацию, пусть и простую.
+            Сможем ли мы получить исходники изображений в векторе (svg)? Нам так было бы удобнее делать анимацию. Размер
+            изображений для разных упражнений должен быть одинаковый по размеру и пропорциям. Для каждого изображений
+            одного упражнения - оборудование должно быть неподвижно и находиться в одном месте
+          </p>
+          <a href="program_two.html">
+            <button class="program__one_button">
+              <p>Следующая программа</p>
+            </button>
+          </a>
+        </section>
+        <section class="program__one_photo">
+          <div class="push-ups">
+            <img class="push-ups-from-the-crossbar" src="src/img/push-ups-from-the-crossbar.png"
+                 alt="парень отжимается от перекладины">
+          </div>
+          <div class="push-ups">
+            <img class="program__one_reverse-grip-push-up" src="src/img/reverse-grip-push-up.png"
+                 alt="отжимание обратным хватом">
+          </div>
+          <div class="push-ups">
+            <img class="pull-up-on-the-horizontal-bar" src="src/img/pull-up-on-the-horizontal-bar.png"
+                 alt="подтягивание на турнике">
+          </div>
+          <div class="push-ups">
+            <img class="twisting-on-the-bench" src="src/img/twisting-on-the-bench.png" alt="скручивание на скамье">
+          </div>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>
