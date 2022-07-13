@@ -377,6 +377,19 @@ ul.breadcrumb_list li a:hover {
   top: 7px;
   left: 10px; }
 
+/* Медиа запросы */
+@media (min-width: 769px) {
+  body {
+    background-color: red; } }
+
+@media (max-width: 768px) and (min-width: 320px) {
+  body {
+    background-color: orange; } }
+
+@media (max-width: 319px) {
+  body {
+    background-color: yellow; } }
+
 /*!***************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/scss/program_one.scss ***!
   \***************************************************************************************************************************/
@@ -530,6 +543,19 @@ a {
   background: #3ea43b;
   fill: #3ea43b; }
 
+/* Медиа запросы */
+@media (min-width: 769px) {
+  body {
+    background-color: red; } }
+
+@media (max-width: 768px) and (min-width: 320px) {
+  body {
+    background-color: orange; } }
+
+@media (max-width: 319px) {
+  body {
+    background-color: yellow; } }
+
 /*!***************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/scss/program_two.scss ***!
   \***************************************************************************************************************************/
@@ -614,4 +640,17 @@ tr:nth-child(even) {
 .table_right {
   left: 1254px;
   top: 527px; }
+
+/* Медиа запросы */
+@media (min-width: 769px) {
+  body {
+    background-color: red; } }
+
+@media (max-width: 768px) and (min-width: 320px) {
+  body {
+    background-color: orange; } }
+
+@media (max-width: 319px) {
+  body {
+    background-color: yellow; } }
 
